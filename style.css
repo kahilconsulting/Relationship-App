@@ -437,15 +437,11 @@ a, button { touch-action: manipulation; }
   .shell { padding-top: 24px; }
 
   .category-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 18px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
   }
 
-  .category-card {
-    min-height: 11rem;
-    padding: 22px;
-    font-size: 1.2rem;
-  }
+  .category-card { min-height: 11rem; }
 
   .question-card { padding: 28px 36px 40px; }
 }

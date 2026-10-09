@@ -75,5 +75,31 @@
   { "id": "holiday-3-3", "category": "holiday", "level": 3, "text": "Which moment from your travels changed the way you see things?" },
   { "id": "holiday-4-1", "category": "holiday", "level": 4, "text": "What would you like to bring home from this trip that isn't a thing?" },
   { "id": "holiday-4-2", "category": "holiday", "level": 4, "text": "What part of your everyday life would you change, now that you've had time to step back from it?" },
-  { "id": "holiday-4-3", "category": "holiday", "level": 4, "text": "When you look back on this trip in twenty years, what do you hope you'll remember?" }
+  { "id": "holiday-4-3", "category": "holiday", "level": 4, "text": "When you look back on this trip in twenty years, what do you hope you'll remember?" },
+
+  { "id": "party-1-1", "category": "party", "level": 1, "text": "How do you know the host, and what's the best story you have about them?" },
+  { "id": "party-1-2", "category": "party", "level": 1, "text": "If you were in charge of the playlist tonight, what's the first song you'd put on?" },
+  { "id": "party-1-3", "category": "party", "level": 1, "text": "What's been the highlight of your week so far?" },
+  { "id": "party-2-1", "category": "party", "level": 2, "text": "What's keeping you busy these days, outside of work?" },
+  { "id": "party-2-2", "category": "party", "level": 2, "text": "What's the best party you've ever been to, and what made it so good?" },
+  { "id": "party-2-3", "category": "party", "level": 2, "text": "What have you got into recently that you can't stop talking about?" },
+  { "id": "party-3-1", "category": "party", "level": 3, "text": "Which decision sent your life in a direction you didn't expect?" },
+  { "id": "party-3-2", "category": "party", "level": 3, "text": "What do you wish more people asked you about?" },
+  { "id": "party-3-3", "category": "party", "level": 3, "text": "Who has had the biggest influence on the person you are today?" },
+  { "id": "party-4-1", "category": "party", "level": 4, "text": "What are you looking forward to that you're also a little nervous about?" },
+  { "id": "party-4-2", "category": "party", "level": 4, "text": "What would your closest friends say is the best thing about you?" },
+  { "id": "party-4-3", "category": "party", "level": 4, "text": "What's one thing you'd like to be different in your life a year from now?" },
+
+  { "id": "business-1-1", "category": "business", "level": 1, "text": "What's the most interesting thing you've heard at this event so far?" },
+  { "id": "business-1-2", "category": "business", "level": 1, "text": "Is there a good spot for coffee or lunch around here that I should know about?" },
+  { "id": "business-1-3", "category": "business", "level": 1, "text": "How do you like to switch off after a busy week?" },
+  { "id": "business-2-1", "category": "business", "level": 2, "text": "How did you end up in the line of work you're in?" },
+  { "id": "business-2-2", "category": "business", "level": 2, "text": "What's the most unusual project you've ever worked on?" },
+  { "id": "business-2-3", "category": "business", "level": 2, "text": "What's happening in your industry right now that you find exciting?" },
+  { "id": "business-3-1", "category": "business", "level": 3, "text": "What's the best professional risk you've ever taken?" },
+  { "id": "business-3-2", "category": "business", "level": 3, "text": "What do you know now that you wish you'd known when you started out?" },
+  { "id": "business-3-3", "category": "business", "level": 3, "text": "What does success look like for you these days, and has that changed over time?" },
+  { "id": "business-4-1", "category": "business", "level": 4, "text": "Which part of your work do you find most meaningful?" },
+  { "id": "business-4-2", "category": "business", "level": 4, "text": "Who took a chance on you early in your career, and what did it lead to?" },
+  { "id": "business-4-3", "category": "business", "level": 4, "text": "If you weren't doing this, what would you love to be doing instead?" }
 ]

@@ -14,6 +14,8 @@ const CATEGORIES = [
   { id: 'kids', label: 'My Kids', icon: 'balloon', tint: '#FDF0C8', deep: '#7A5A00' },
   { id: 'friends', label: 'Friends', icon: 'people', tint: '#E0F2E6', deep: '#2C7A4B' },
   { id: 'holiday', label: 'On Holiday', icon: 'sun', tint: '#DDF1F4', deep: '#1B6F80' },
+  { id: 'party', label: 'At a Party with Strangers', icon: 'popper', tint: '#EAE4FB', deep: '#5E3FB0' },
+  { id: 'business', label: 'Business Lunch or Cocktails', icon: 'cocktail', tint: '#E9EFCF', deep: '#566314' },
 ];
 
 const LEVELS = [
@@ -31,6 +33,8 @@ const ICONS = {
   balloon: '<ellipse cx="12" cy="9" rx="6" ry="6.5"/><path d="M12 15.5V17"/><path d="M12 17c0 2-2.5 2-2.5 4.5"/>',
   people: '<circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15.5 5.2a3 3 0 0 1 0 5.6"/><path d="M17.5 14.4c2.1.8 3.5 2.9 3.5 5.6"/>',
   sun: '<circle cx="12" cy="9" r="3.2"/><path d="M12 2.5v1.2"/><path d="M5.5 9H4.3"/><path d="M19.7 9h-1.2"/><path d="M7.4 4.4l-.8-.8"/><path d="M17.4 3.6l-.8.8"/><path d="M3 17.5c1.5-1.4 3-1.4 4.5 0s3 1.4 4.5 0 3-1.4 4.5 0 3 1.4 4.5 0"/>',
+  popper: '<path d="M4 20l4.5-11 6.5 6.5z"/><path d="M13.5 9.500c.8-2 2.900-1.600 3.500-3.500"/><path d="M13 3.500v1.800"/><path d="M18.700 11h1.800"/><path d="M19.500 4.500l-1.200 1.200"/>',
+  cocktail: '<path d="M5 5h14l-7 8z"/><path d="M12 13v7"/><path d="M8.500 20h7"/><path d="M15.500 2.500l-2 4.500"/>',
   back: '<path d="M15 5l-7 7 7 7"/>',
   chevron: '<path d="M9 5l7 7-7 7"/>',
   arrow: '<path d="M5 12h14"/><path d="M13 6l6 6-6 6"/>',

@@ -41,7 +41,7 @@ Open `data/questions.json`. Each question is one line:
 ```
 
 - **id** — any unique name. Following the pattern `category-level-number` keeps things tidy.
-- **category** — one of `colleagues`, `gym`, `partner`, `kids`, `friends`, `holiday`.
+- **category** — one of `colleagues`, `gym`, `partner`, `kids`, `friends`, `holiday`, `party`, `business`.
 - **level** — `1` (Light), `2` (Curious), `3` (Deep) or `4` (Personal).
 - **text** — the question.
 

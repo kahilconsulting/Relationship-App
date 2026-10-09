@@ -18,7 +18,8 @@ const FILES = [
 ];
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(FILES)));
+  const freshFiles = FILES.map((file) => new Request(file, { cache: 'reload' }));
+  event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(freshFiles)));
   self.skipWaiting();
 });
 
@@ -30,8 +31,10 @@ self.addEventListener('fetch', (event) => {
   const request = event.request;
   if (request.method !== 'GET' || !request.url.startsWith(self.location.origin)) return;
 
+  // 'no-cache' makes the browser check with the server every time instead of
+  // reusing its own stored copy, which GitHub Pages lets it keep for 10 minutes.
   event.respondWith(
-    fetch(request)
+    fetch(request, { cache: 'no-cache' })
       .then((response) => {
         if (response.ok) {
           const copy = response.clone();
